@@ -22,6 +22,6 @@ The main purpose of this script is to make file handling easier and makes backin
 
 ## Technologies Used:
 * AWS - S3, IAM
-* Python - boto3 & os
+* Python - boto3, os
 
 Muhammad A. Ali
