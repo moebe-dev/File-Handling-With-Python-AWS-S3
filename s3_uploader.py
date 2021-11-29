@@ -10,5 +10,5 @@ client = boto3.client('s3',
 for file in os.listdir():
     if '.txt' in file:
         upload_file_bucket = 'os-desktop-bucket'
-        upload_file_key = 'Copy of ' + str(file)
+        upload_file_key = 'Desktop/' + str(file)
         client.upload_file(file, upload_file_bucket, upload_file_key)
